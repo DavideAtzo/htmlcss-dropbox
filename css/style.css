@@ -23,6 +23,8 @@ li {
 
 a {
     text-decoration: none;
+    
+    
 }
 
 /*
@@ -57,10 +59,24 @@ header .menu-head .list-right .list-links
     justify-content: space-around;
 }
 
-.list-left{
-    width: 20%;
+.list-left,
+.list-right
+{
+    width: 30%;
 }
 
-.list-right{
-    width: 20%;
+
+header .menu-head .list-left .list-links img{
+    width: 100px;
+}
+
+
+header a{
+    color: black;
+}
+
+.blu-btn{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
 }
