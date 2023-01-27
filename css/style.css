@@ -10,6 +10,9 @@ reset
     box-sizing: border-box;
 }
 
+
+
+
 /*
 +++++++++++++
 Common
@@ -23,8 +26,20 @@ li {
 
 a {
     text-decoration: none;
-    
-    
+}
+
+.container-maxi{
+    margin: 0 auto;
+}
+
+.container-big{
+    width: 66vw;
+    margin: 0 auto;
+}
+
+.flexami{
+    display: flex;
+    justify-content: center;
 }
 
 /*
@@ -79,4 +94,27 @@ header a{
     background-color: #0061ff;
     color: white;
     padding: 5px 10px;
+}
+
+
+
+/*
++++++++++++++
+Typo Main
++++++++++++++
+*/
+
+
+main .container-maxi{
+    background-color: orange;
+}
+
+.box-testo{
+    width: 40vw;
+    background-color: green;
+}
+
+.box-img{
+    width: 60vw;
+    background-color: blue;
 }
