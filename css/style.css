@@ -4,9 +4,63 @@ reset
 +++++++++++++
 */
 
-*{
+* {
     margin: 0;
-    pad: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+/*
++++++++++++++
+Common
++++++++++++++
+*/
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/*
++++++++++++++
+Typo Header
++++++++++++++
+*/
+
+
+header{
+    height: 80px;
+}
+
+.menu-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+
+
+.list,
+.list-links{
+    display: flex;
+}
+
+header .menu-head .list-left .list-links,
+header .menu-head .list-right .list-links
+{
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.list-left{
+    width: 20%;
+}
+
+.list-right{
+    width: 20%;
+}
