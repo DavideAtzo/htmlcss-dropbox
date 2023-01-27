@@ -42,6 +42,17 @@ a {
     justify-content: center;
 }
 
+
+
+.box-testo{
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+.btn-margin{
+    margin-bottom: 35px;
+    
+}
 /*
 +++++++++++++
 Typo Header
@@ -96,6 +107,9 @@ header a{
     padding: 5px 10px;
 }
 
+img{
+    width: 100%;
+}
 
 
 /*
@@ -106,15 +120,51 @@ Typo Main
 
 
 main .container-maxi{
-    background-color: orange;
+    background-color: #b4d0e7;
 }
 
-.box-testo{
+main section .container-big .container .box-testo{
     width: 40vw;
-    background-color: green;
 }
 
 .box-img{
     width: 60vw;
-    background-color: blue;
 }
+
+
+
+main section .container-big h1{
+    font-size: 50px;
+    margin-top: 100px;
+    
+}
+
+
+
+/* main section .container{
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */
+
+
+main section .container-big .container .box-testo p{
+    margin-bottom: 35px;
+}
+
+main section .container-big .container .box-testo .row-down{
+    margin-top: 80px;
+}
+
+
+main section .container-big .container .box-testo .row-down:before{
+    content: "\1F87B";
+    font-size: 50px;
+}
+
+
+/*
++++++++++++++
+fine sezione 1
++++++++++++++
+*/
