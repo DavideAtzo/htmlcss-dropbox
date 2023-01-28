@@ -19,40 +19,58 @@ Common
 +++++++++++++
 */
 
+
+.jumbotron {
+    margin: 0 auto;
+}
+
+
+.container-maxi{
+    width: 66vw;
+    margin: 0 auto;
+}
+
+.container-big{
+    width: 54vw;
+    margin: 0 auto;
+}
+
+
+.flexami {
+    display: flex;
+    
+}
+
 li {
     list-style-type: none;
+    margin: 20px 0;
+    padding: 0 20px;
+
 }
+
 
 
 a {
     text-decoration: none;
 }
 
-.container-maxi{
-    margin: 0 auto;
-}
 
-.container-big{
-    width: 66vw;
-    margin: 0 auto;
-}
-
-.flexami{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.box-testo{
+.box-testo {
     line-height: 1.4em;
     padding: 10px;
 }
 
-.btn-margin{
+.btn-margin {
     margin-bottom: 35px;
-    
+
 }
+
+
+
+.container-small .box div:first-child {
+    text-align: center;
+}
+
 /*
 +++++++++++++
 Typo Header
@@ -60,57 +78,58 @@ Typo Header
 */
 
 
-header{
+header {
     height: 80px;
 }
 
-.menu-head{
+.menu-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     height: 100%;
 }
 
 
 .list,
-.list-links{
+.list-links {
     display: flex;
 }
 
 header .menu-head .list-left .list-links,
-header .menu-head .list-right .list-links
-{
-    gap: 10px;
+header .menu-head .list-right .list-links {
     justify-content: space-around;
 }
 
 .list-left,
-.list-right
-{
-    width: 30%;
+.list-right {
+    width: 35%;
 }
 
 
-header .menu-head .list-left .list-links img{
+header .menu-head .list-left .list-links img {
     width: 100px;
 }
 
 
-header a{
+header a {
     color: black;
 }
 
-.blu-btn{
+.blu-btn {
     background-color: #0061ff;
     color: white;
     padding: 5px 10px;
 }
 
-img{
+img {
     width: 100%;
 }
 
+
+h2{
+    font-size: 35px;
+    margin-top: 80px;
+}
 
 /*
 +++++++++++++
@@ -119,45 +138,43 @@ Typo Main
 */
 
 
-main .container-maxi{
+main .jumbotron {
     background-color: #b4d0e7;
 }
 
-main section .container-big .container .box-testo{
+main section .container-maxi .flexami .box-testo {
     width: 40vw;
 }
 
-.box-img{
+.box-img {
     width: 60vw;
 }
 
 
 
-main section .container-big h1{
+main section .container-maxi h1 {
     font-size: 50px;
     margin-top: 100px;
-    
+
+}
+
+
+.container{
+    justify-content: space-between;
 }
 
 
 
-/* main section .container{
-    position: relative;
-    top: 50px;
-    left: 50px;
-} */
-
-
-main section .container-big .container .box-testo p{
+main section .container-maxi .flexami .box-testo p {
     margin-bottom: 35px;
 }
 
-main section .container-big .container .box-testo .row-down{
+main section .container-maxi .flexami .box-testo .row-down {
     margin-top: 80px;
 }
 
 
-main section .container-big .container .box-testo .row-down:before{
+main section .container-maxi .flexami .box-testo .row-down:before {
     content: "\1F87B";
     font-size: 50px;
 }
@@ -168,3 +185,91 @@ main section .container-big .container .box-testo .row-down:before{
 fine sezione 1
 +++++++++++++
 */
+
+
+
+.container-small{
+    justify-content: center;
+}
+
+/* ul[classe="list"] li{
+    margin: 20px 0;
+    padding: 0 20px;
+} */
+
+
+
+.box{
+    width: calc(100% / 3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.center-box{
+    margin: 0 30px;
+}
+
+
+.radio{
+    margin-bottom: 40px;
+    margin-top: 45px;
+    display: flex;
+    gap: 15px;
+}
+
+
+.radio div:last-child{
+    margin-left: 30px;
+}
+
+.plan{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 2;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+
+h3,
+.box div{
+    padding: 0 20px;
+}
+
+
+.type-plan{
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-bottom: 35px
+}
+
+
+label{
+    margin-left: 5px;
+}
+
+input,
+label
+{
+    vertical-align: middle;
+}
+
+hr{
+    width: 20%;
+    margin: 25px 20px;
+}
+
+
+.corrector{
+    margin-bottom: 40px;
+}
+
+.btn-box{
+    text-align: center;
+}
+
+.btn-box a{
+    width: 100%;
+    display: block;
+}
