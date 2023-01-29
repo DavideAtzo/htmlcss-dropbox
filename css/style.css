@@ -41,6 +41,10 @@ Common
     
 }
 
+/* .wrappino{
+    flex-wrap: wrap;
+} */
+
 li {
     list-style-type: none;
     margin: 20px 0;
@@ -190,10 +194,8 @@ fine sezione 1
 }
 
 
-.box
-
+.border
 {
-    width: calc(100% / 3);
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -226,7 +228,7 @@ h3{
 
 
 h3,
-.box div{
+.border div{
     padding: 0 25px;
 }
 
@@ -264,7 +266,7 @@ hr{
 }
 
 
-.container-big .box{
+.container-big .border{
     width: 100%;
    
 }
@@ -272,12 +274,14 @@ hr{
 
 
 
-.container-big .box ul li{
+.container-big .border ul li{
     padding: 10px 35px;
 }
 
-.container-big .box ul li a[class="buy"]{
+
+.container-big .border ul li a[class="buy"]{
     text-decoration: underline;
+    color: #5200ef;
 }
 
 
@@ -333,8 +337,9 @@ Orizzontal box
 
 
 .mini-box-left div:last-child{
-    margin-top: 30px;
+    margin: 30px 0;
 }
+
 
 /*
 +++++++++++++
@@ -365,4 +370,34 @@ main section .container-small .box-testo div {
     color: black;
     border: 1px solid black;
     padding: 5px 15px;
+}
+
+/*
++++++++++++++
+Sezione 3
++++++++++++++
+*/
+
+
+
+h4{
+    margin-bottom: 40px;
+}
+
+.box{
+    width: calc(100% / 3);
+    padding: 0 20px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.normal-link{
+    text-decoration: underline;
+    color: #5200ef;
+    margin-bottom: 150px;
+    margin-top: 75px;
 }
