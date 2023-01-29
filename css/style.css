@@ -66,11 +66,6 @@ a {
 }
 
 
-
-.container-small .box div:first-child {
-    text-align: center;
-}
-
 /*
 +++++++++++++
 Typo Header
@@ -192,14 +187,10 @@ fine sezione 1
     justify-content: center;
 }
 
-/* ul[classe="list"] li{
-    margin: 20px 0;
-    padding: 0 20px;
-} */
 
+.box
 
-
-.box{
+{
     width: calc(100% / 3);
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -211,7 +202,6 @@ fine sezione 1
 
 
 .radio{
-    margin-bottom: 40px;
     margin-top: 45px;
     display: flex;
     gap: 15px;
@@ -225,6 +215,7 @@ fine sezione 1
 .plan{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     line-height: 2;
+    text-align: center;
 }
 
 h3{
@@ -234,14 +225,14 @@ h3{
 
 h3,
 .box div{
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 
 .type-plan{
     opacity: 0.5;
     margin-top: 5px;
-    margin-bottom: 35px
+    margin-bottom: 30px;
 }
 
 
@@ -257,13 +248,9 @@ label
 
 hr{
     width: 20%;
-    margin: 25px 20px;
+    margin: 25px 35px;
 }
 
-
-.corrector{
-    margin-bottom: 40px;
-}
 
 .btn-box{
     text-align: center;
@@ -272,4 +259,74 @@ hr{
 .btn-box a{
     width: 100%;
     display: block;
+}
+
+
+.container-big .box{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+
+.container-big .box ul li{
+    padding: 10px 35px;
+}
+
+.container-big .box ul li a[class="buy"]{
+    text-decoration: underline;
+}
+
+
+.container-big .center-box ul li:last-child{
+    margin-bottom: 50px;
+}
+
+
+i{
+    margin-left: -20px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+
+i[class="fa-solid fa-check"]{
+    color: #0061ff;
+}
+
+
+.frst-btn{
+    margin-top: 20px;
+}
+
+/*
++++++++++++++
+Orizzontal box
++++++++++++++
+*/
+
+
+.mini-box{
+    display: flex;
+}
+
+.orizz-box strong{
+    margin-bottom: 30px;
+}
+
+
+.mini-box-left{
+    width: 70%;
+}
+
+
+.mini-box-right{
+    width: 30%;
+    margin-top: 20px;
+}
+
+
+.mini-box-left div:last-child{
+    margin-top: 30px;
 }
