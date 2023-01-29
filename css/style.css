@@ -185,6 +185,8 @@ fine sezione 1
 
 .container-small{
     justify-content: center;
+    width: 100%;
+    margin-top: 50px;
 }
 
 
@@ -264,7 +266,7 @@ hr{
 
 .container-big .box{
     width: 100%;
-    margin-top: 50px;
+   
 }
 
 
@@ -306,6 +308,9 @@ Orizzontal box
 +++++++++++++
 */
 
+.orizz-box{
+    margin-top: 50px;
+}
 
 .mini-box{
     display: flex;
@@ -329,4 +334,35 @@ Orizzontal box
 
 .mini-box-left div:last-child{
     margin-top: 30px;
+}
+
+/*
++++++++++++++
+Sezione 2
++++++++++++++
+*/
+
+
+.box-img2{
+    width: 55%;
+}
+
+main section .container-small .box-testo{
+    width: 45%;
+}
+
+main section .container-small .box-testo p{
+    padding: 0 25px;
+}
+
+
+main section .container-small .box-testo div {
+    padding:  20px 25px;
+}
+
+
+.second-btn{
+    color: black;
+    border: 1px solid black;
+    padding: 5px 15px;
 }
