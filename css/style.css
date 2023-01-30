@@ -548,8 +548,19 @@ Sezione FAQ
 }
 
 
-
-li[class="faq"]:first-child{
-    border-top: 3px solid rgba(128, 128, 128, 0.3);
-    margin-top: 70px;
+div[class="faq"] a{
+    color: black;
+    font-weight: 600;
 }
+
+div[class="faq"] i{
+    margin-left: 240px;
+    
+}
+
+.tit-faq{
+    margin-top: 160px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.3);
+    padding-bottom: 70px;
+}
+
