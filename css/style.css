@@ -11,6 +11,10 @@ reset
 }
 
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 
 /*
@@ -24,6 +28,10 @@ Common
     margin: 0 auto;
 }
 
+#large-container{
+    height: 640px;
+}
+
 
 .container-maxi{
     width: 66vw;
@@ -31,7 +39,7 @@ Common
 }
 
 .container-big{
-    width: 54vw;
+    width: 60vw;
     margin: 0 auto;
 }
 
@@ -97,11 +105,6 @@ header {
 header .menu-head .list-left .list-links,
 header .menu-head .list-right .list-links {
     justify-content: space-around;
-}
-
-.list-left,
-.list-right {
-    width: 35%;
 }
 
 
@@ -196,7 +199,7 @@ fine sezione 1
 
 .border
 {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 
@@ -217,7 +220,7 @@ fine sezione 1
 }
 
 .plan{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     line-height: 2;
     text-align: center;
 }
@@ -275,7 +278,7 @@ hr{
 
 
 .container-big .border ul li{
-    padding: 10px 35px;
+    padding: 10px 30px 10px 35px;
 }
 
 
@@ -302,9 +305,7 @@ i[class="fa-solid fa-check"]{
 }
 
 
-.frst-btn{
-    margin-top: 20px;
-}
+
 
 /*
 +++++++++++++
@@ -400,4 +401,34 @@ h4{
     color: #5200ef;
     margin-bottom: 150px;
     margin-top: 75px;
+}
+
+/*
++++++++++++++
+Sezione sponsor
++++++++++++++
+*/
+
+
+.box-sponsor{
+    border: 2px solid red;
+    width: 320px;
+    height: 320px;
+}
+
+
+
+
+#designit{
+    width: 33%;
+    width: 320px;
+    height: 320px;
+    border: 2px solid red;
+}
+
+
+.right-designit,
+.left-container{
+    width: calc(100% / 2);
+    flex-wrap: wrap;
 }
