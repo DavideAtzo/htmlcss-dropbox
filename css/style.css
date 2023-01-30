@@ -28,9 +28,6 @@ Common
     margin: 0 auto;
 }
 
-#large-container{
-    height: 640px;
-}
 
 
 .container-maxi{
@@ -409,26 +406,73 @@ Sezione sponsor
 +++++++++++++
 */
 
+#large-container{
+    height: 640px;
+    width: 100%;
+}
+
 
 .box-sponsor{
-    border: 2px solid red;
-    width: 320px;
-    height: 320px;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.center-designit{
+    width: calc(100% / 3);
+    height: 100%;
 
-
-#designit{
-    width: 33%;
-    width: 320px;
-    height: 320px;
-    border: 2px solid red;
 }
+
 
 
 .right-designit,
 .left-designit{
-    width: calc(100% / 2);
-    flex-wrap: wrap;
+    width: calc(100% / 3);
+    flex-wrap: wrap; 
+}
+
+
+.left-designit .box-sponsor img,
+.right-designit .box-sponsor img
+{
+    width: 50%%;
+}
+
+
+.center-designit .box-sponsor img{
+    width: 50%;
+}
+
+
+.red{
+    background-color: #ff1c1c;
+}
+
+
+#green{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+#bourdeaux{
+    background-color: #61082b;
+}
+
+#light-blue{
+    background-color: #0093ce;
+}
+
+#sky{
+    background-color: #b4d0e7;
+}
+
+#blue{
+    background-color: #0d2481;
+}
+
+#yellow{
+    background-color: #ffd830;
 }
