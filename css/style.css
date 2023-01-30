@@ -441,6 +441,7 @@ Sezione sponsor
 .left-designit .box-sponsor img,
 .right-designit .box-sponsor img {
     width: 50%;
+    filter: invert(100%);
 }
 
 .designit-center {
@@ -503,6 +504,7 @@ Sezione sponsor
 Sezione after sponsor
 +++++++++++++
 */
+
 .after-sponsor-btn,
 .after-sponsor-title {
     width: 50%;
@@ -532,4 +534,22 @@ Sezione after sponsor
 #h2-pt2{
     margin: 0 auto;
     color: #61082b;
+}
+
+/*
++++++++++++++
+Sezione FAQ
++++++++++++++
+*/
+
+.faq{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.3);
+    padding: 35px 0;
+}
+
+
+
+li[class="faq"]:first-child{
+    border-top: 3px solid rgba(128, 128, 128, 0.3);
+    margin-top: 70px;
 }
