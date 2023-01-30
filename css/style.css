@@ -11,7 +11,7 @@ reset
 }
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -30,12 +30,12 @@ Common
 
 
 
-.container-maxi{
+.container-maxi {
     width: 66vw;
     margin: 0 auto;
 }
 
-.container-big{
+.container-big {
     width: 60vw;
     margin: 0 auto;
 }
@@ -43,7 +43,7 @@ Common
 
 .flexami {
     display: flex;
-    
+
 }
 
 /* .wrappino{
@@ -57,7 +57,7 @@ li {
 
 }
 
-* hr{
+* hr {
     border: 1px solid grey;
     opacity: 0.4;
 }
@@ -128,7 +128,7 @@ img {
 }
 
 
-h2{
+h2 {
     font-size: 35px;
     margin-top: 80px;
 }
@@ -161,7 +161,7 @@ main section .container-maxi h1 {
 }
 
 
-.container{
+.container {
     justify-content: space-between;
 }
 
@@ -190,117 +190,115 @@ fine sezione 1
 
 
 
-.container-small{
+.container-small {
     justify-content: center;
     width: 100%;
     margin-top: 50px;
 }
 
 
-.border
-{
+.border {
     border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 
-.center-box{
+.center-box {
     margin: 0 30px;
 }
 
 
-.radio{
+.radio {
     margin-top: 45px;
     display: flex;
     gap: 15px;
 }
 
 
-.radio div:last-child{
+.radio div:last-child {
     margin-left: 30px;
 }
 
-.plan{
+.plan {
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     line-height: 2;
     text-align: center;
 }
 
-h3{
+h3 {
     margin: 20px 0;
 }
 
 
 h3,
-.border div{
+.border div {
     padding: 0 25px;
 }
 
 
-.type-plan{
+.type-plan {
     opacity: 0.5;
     margin-top: 5px;
     margin-bottom: 30px;
 }
 
 
-label{
+label {
     margin-left: 5px;
 }
 
 input,
-label
-{
+label {
     vertical-align: middle;
 }
 
-hr{
+hr {
     width: 20%;
     margin: 25px 35px;
 }
 
 
-.btn-box{
+.btn-box {
     text-align: center;
 }
 
-.btn-box a{
+.btn-box a {
     width: 100%;
     display: block;
 }
 
 
-.container-big .border{
+.container-big .border {
     width: 100%;
-   
+
 }
 
 
 
 
-.container-big .border ul li{
+.container-big .border ul li {
     padding: 10px 30px 10px 35px;
 }
 
 
-.container-big .border ul li a[class="buy"]{
+.container-big .border ul li a[class="buy"] {
     text-decoration: underline;
     color: #5200ef;
 }
 
 
-.container-big .center-box ul li:last-child{
+.container-big .center-box ul li:last-child {
     margin-bottom: 50px;
 }
 
 
-i{
+i {
     margin-left: -20px;
     font-size: 12px;
     margin-right: 5px;
 }
 
 
-i[class="fa-solid fa-check"]{
+i[class="fa-solid fa-check"] {
     color: #0061ff;
 }
 
@@ -313,31 +311,31 @@ Orizzontal box
 +++++++++++++
 */
 
-.orizz-box{
+.orizz-box {
     margin-top: 50px;
 }
 
-.mini-box{
+.mini-box {
     display: flex;
 }
 
-.orizz-box strong{
+.orizz-box strong {
     margin-bottom: 30px;
 }
 
 
-.mini-box-left{
+.mini-box-left {
     width: 70%;
 }
 
 
-.mini-box-right{
+.mini-box-right {
     width: 30%;
     margin-top: 20px;
 }
 
 
-.mini-box-left div:last-child{
+.mini-box-left div:last-child {
     margin: 30px 0;
 }
 
@@ -349,25 +347,25 @@ Sezione 2
 */
 
 
-.box-img2{
+.box-img2 {
     width: 55%;
 }
 
-main section .container-small .box-testo{
+main section .container-small .box-testo {
     width: 45%;
 }
 
-main section .container-small .box-testo p{
+main section .container-small .box-testo p {
     padding: 0 25px;
 }
 
 
 main section .container-small .box-testo div {
-    padding:  20px 25px;
+    padding: 20px 25px;
 }
 
 
-.second-btn{
+.second-btn {
     color: black;
     border: 1px solid black;
     padding: 5px 15px;
@@ -381,22 +379,22 @@ Sezione 3
 
 
 
-h4{
+h4 {
     margin-bottom: 40px;
 }
 
-.box{
+.box {
     width: calc(100% / 3);
     padding: 0 20px;
 }
 
-.boxes{
+.boxes {
     display: flex;
     margin-top: 30px;
     flex-wrap: wrap;
 }
 
-.normal-link{
+.normal-link {
     text-decoration: underline;
     color: #5200ef;
     margin-bottom: 150px;
@@ -409,13 +407,13 @@ Sezione sponsor
 +++++++++++++
 */
 
-#large-container{
+#large-container {
     height: 640px;
     width: 100%;
 }
 
 
-.box-sponsor{
+.box-sponsor {
     width: 50%;
     height: 50%;
     display: flex;
@@ -424,7 +422,7 @@ Sezione sponsor
 }
 
 
-.center-designit-box{
+.center-designit-box {
     width: calc(100% / 3);
     height: 100%;
     justify-content: flex-start;
@@ -434,69 +432,104 @@ Sezione sponsor
 
 
 .right-designit,
-.left-designit{
+.left-designit {
     width: calc(100% / 3);
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 
 .left-designit .box-sponsor img,
-.right-designit .box-sponsor img
-{
+.right-designit .box-sponsor img {
     width: 50%;
 }
 
-.designit-center{
+.designit-center {
     display: block;
     margin: 50px 40px;
     width: 100%;
 }
 
-.designit-center img{
+.designit-center img {
     width: 50%;
 }
 
-#hr-sponsor{
+#hr-sponsor {
     width: 20%;
     margin: 50px 0;
 }
 
-.center-designit-box .designit-center p{
+.center-designit-box .designit-center p {
     margin-bottom: 50px;
 }
 
 
 
-.red{
+.red {
     background-color: #ff1c1c;
 }
 
 
-#green{
+#green {
     background-color: #a2d39b;
     border: 15px solid #d1e9cd;
 }
 
-#bourdeaux{
+#bourdeaux {
     background-color: #61082b;
 }
 
-#light-blue{
+#light-blue {
     background-color: #0093ce;
 }
 
-#sky{
+#sky {
     background-color: #b4d0e7;
 }
 
-#blue{
+#blue {
     background-color: #0d2481;
 }
 
-#yellow{
+#yellow {
     background-color: #ffd830;
 }
 
-#grey{
+#grey {
     background-color: #f5f5f5;
+}
+
+/*
++++++++++++++
+Sezione after sponsor
++++++++++++++
+*/
+.after-sponsor-btn,
+.after-sponsor-title {
+    width: 50%;
+    margin: 135px 0;
+
+}
+
+.after-sponsor-btn {
+    text-align: center;
+    
+}
+
+
+#after-sponsor {
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+}
+
+
+.after-sponsor-btn a{
+    background-color: white;
+    border: white;
+    line-height: 3.3em;
+}
+
+#h2-pt2{
+    margin: 0 auto;
+    color: #61082b;
 }
