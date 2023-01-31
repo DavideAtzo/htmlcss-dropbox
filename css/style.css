@@ -54,7 +54,7 @@ li {
 
 }
 
-* hr {
+main hr {
     border: 1px solid grey;
     opacity: 0.4;
 }
@@ -575,7 +575,30 @@ footer {
 
 nav{
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 
-footer nav .menu-footer
+footer nav .menu-footer li{
+    padding: 0;
+    
+}
+
+footer nav a{
+    color: white;
+
+}
+
+footer i{
+    padding-left: 20px;
+}
+
+
+footer hr{
+    color: white;
+    margin: 120px 0 50px 0;
+}
+
+nav div:last-child{
+    opacity: 0.5;
+}
