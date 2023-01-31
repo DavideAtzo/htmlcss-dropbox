@@ -85,10 +85,11 @@ Typo Header
 +++++++++++++
 */
 
-
+header{
+    height: 80px;
+}
 
 header nav{
-    width: 100%;
     height: 80px;
     position: fixed;
     top: 0;
@@ -138,6 +139,7 @@ img {
 h2 {
     font-size: 35px;
     margin-top: 80px;
+    padding-top: 50px;
 }
 
 /*
@@ -210,7 +212,7 @@ fine sezione 1
 .container-small {
     justify-content: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 130px;
 }
 
 
@@ -285,7 +287,7 @@ hr {
 
 
 .container-big .border {
-    width: 100%;
+    width:  calc(90% / 3);
 
 }
 
@@ -293,7 +295,8 @@ hr {
 
 
 .container-big .border ul li {
-    padding: 10px 30px 10px 35px;
+    padding: 10px 25px 10px 35px;
+    max-height: 80px;
 }
 
 
@@ -328,8 +331,9 @@ Orizzontal box
 +++++++++++++
 */
 
-.orizz-box {
+#orizz-box {
     margin-top: 50px;
+    width: 100%;
 }
 
 .mini-box {
@@ -396,19 +400,22 @@ Sezione 3
 
 
 
-h4 {
-    margin-bottom: 40px;
+.box h4 {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 22px;
 }
 
 .box {
-    width: calc(100% / 3);
-    padding: 0 20px;
+    width: calc(90% / 3);
+    margin: 30px 0;
 }
 
 .boxes {
     display: flex;
     margin-top: 30px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .normal-link {
@@ -418,11 +425,17 @@ h4 {
     margin-top: 75px;
 }
 
+
 /*
 +++++++++++++
 Sezione sponsor
 +++++++++++++
 */
+
+#intro-sponsor{
+    width: 55%;
+}
+
 
 #large-container {
     width: 100%;
@@ -597,10 +610,14 @@ footer nav{
     padding-bottom: 50px;
 }
 
+footer nav .menu-footer h4{
+    margin-bottom: 40px;
+}
 
 footer nav .menu-footer li{
     padding: 0;
-    
+    max-height: 20px;
+    margin: 20px 0;
 }
 
 footer nav a{
