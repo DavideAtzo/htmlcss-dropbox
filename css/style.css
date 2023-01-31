@@ -46,9 +46,13 @@ Common
 
 }
 
-
-li {
+li{
     list-style-type: none;
+    padding: 0 20px;
+}
+
+main li {
+    
     margin: 20px 0;
     padding: 0 20px;
 
@@ -90,19 +94,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 
 .list,
 .list-links {
     display: flex;
+    line-height: 80px;
 }
 
-header .menu-head .list-left .list-links,
-header .menu-head .list-right .list-links {
-    justify-content: space-around;
-}
 
 
 header .menu-head .list-left .list-links img {
@@ -599,6 +605,6 @@ footer hr{
     margin: 120px 0 50px 0;
 }
 
-nav div:last-child{
+#lang{
     opacity: 0.5;
 }
